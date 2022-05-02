@@ -1,0 +1,669 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "active": true,
+      "superAdmin": false,
+      "info": {
+        "firstName": "Danniel",
+        "lastName": "Blichman",
+        "email": "danniel.blichman@testtask.com",
+        "role": "Admin",
+        "avatar": null
+      },
+      "permissions": [
+        {
+          "active": false,
+          "title": "Permission group 1",
+          "id": 1,
+          "subPermissions": [
+            {
+              "id": 11,
+              "title": "Permission 11",
+              "active": true
+            },
+            {
+              "id": 12,
+              "title": "Permission 12",
+              "active": true
+            },
+            {
+              "id": 13,
+              "title": "Permission 13",
+              "active": false
+            },
+            {
+              "id": 14,
+              "title": "Permission 14",
+              "active": true
+            },
+            {
+              "id": 15,
+              "title": "Permission 15",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 2",
+          "id": 2,
+          "subPermissions": [
+            {
+              "id": 21,
+              "title": "Permission 21",
+              "active": true
+            },
+            {
+              "id": 22,
+              "title": "Permission 22",
+              "active": true
+            },
+            {
+              "id": 23,
+              "title": "Permission 23",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 3",
+          "id": 3,
+          "subPermissions": [
+            {
+              "id": 31,
+              "title": "Permission 31",
+              "active": true
+            },
+            {
+              "id": 32,
+              "title": "Permission 32",
+              "active": true
+            },
+            {
+              "id": 33,
+              "title": "Permission 33",
+              "active": false
+            },
+            {
+              "id": 34,
+              "title": "Permission 34",
+              "active": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "active": true,
+      "superAdmin": false,
+      "info": {
+        "firstName": "Margarette",
+        "lastName": "Jones",
+        "email": "margarette.jones@testtask.com",
+        "role": "User",
+        "avatar": null
+      },
+      "permissions": [
+        {
+          "active": false,
+          "title": "Permission group 1",
+          "id": 1,
+          "subPermissions": [
+            {
+              "id": 11,
+              "title": "Permission 11",
+              "active": true
+            },
+            {
+              "id": 12,
+              "title": "Permission 12",
+              "active": true
+            },
+            {
+              "id": 13,
+              "title": "Permission 13",
+              "active": false
+            },
+            {
+              "id": 14,
+              "title": "Permission 14",
+              "active": true
+            },
+            {
+              "id": 15,
+              "title": "Permission 15",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 2",
+          "id": 2,
+          "subPermissions": [
+            {
+              "id": 21,
+              "title": "Permission 21",
+              "active": true
+            },
+            {
+              "id": 22,
+              "title": "Permission 22",
+              "active": true
+            },
+            {
+              "id": 23,
+              "title": "Permission 23",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 3",
+          "id": 3,
+          "subPermissions": [
+            {
+              "id": 31,
+              "title": "Permission 31",
+              "active": true
+            },
+            {
+              "id": 32,
+              "title": "Permission 32",
+              "active": true
+            },
+            {
+              "id": 33,
+              "title": "Permission 33",
+              "active": false
+            },
+            {
+              "id": 34,
+              "title": "Permission 34",
+              "active": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "active": true,
+      "superAdmin": false,
+      "info": {
+        "firstName": "Bethany",
+        "lastName": "Doe",
+        "email": "bethany.doe@testtask.com",
+        "role": "User",
+        "avatar": null
+      },
+      "permissions": [
+        {
+          "active": false,
+          "title": "Permission group 1",
+          "id": 1,
+          "subPermissions": [
+            {
+              "id": 11,
+              "title": "Permission 11",
+              "active": true
+            },
+            {
+              "id": 12,
+              "title": "Permission 12",
+              "active": true
+            },
+            {
+              "id": 13,
+              "title": "Permission 13",
+              "active": false
+            },
+            {
+              "id": 14,
+              "title": "Permission 14",
+              "active": true
+            },
+            {
+              "id": 15,
+              "title": "Permission 15",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 2",
+          "id": 2,
+          "subPermissions": [
+            {
+              "id": 21,
+              "title": "Permission 21",
+              "active": true
+            },
+            {
+              "id": 22,
+              "title": "Permission 22",
+              "active": true
+            },
+            {
+              "id": 23,
+              "title": "Permission 23",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 3",
+          "id": 3,
+          "subPermissions": [
+            {
+              "id": 31,
+              "title": "Permission 31",
+              "active": true
+            },
+            {
+              "id": 32,
+              "title": "Permission 32",
+              "active": true
+            },
+            {
+              "id": 33,
+              "title": "Permission 33",
+              "active": false
+            },
+            {
+              "id": 34,
+              "title": "Permission 34",
+              "active": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "active": true,
+      "superAdmin": false,
+      "info": {
+        "firstName": "Samuel",
+        "lastName": "Jackson",
+        "email": "samuel.jackson@testtask.com",
+        "role": "User",
+        "avatar": null
+      },
+      "permissions": [
+        {
+          "active": false,
+          "title": "Permission group 1",
+          "id": 1,
+          "subPermissions": [
+            {
+              "id": 11,
+              "title": "Permission 11",
+              "active": true
+            },
+            {
+              "id": 12,
+              "title": "Permission 12",
+              "active": true
+            },
+            {
+              "id": 13,
+              "title": "Permission 13",
+              "active": false
+            },
+            {
+              "id": 14,
+              "title": "Permission 14",
+              "active": true
+            },
+            {
+              "id": 15,
+              "title": "Permission 15",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 2",
+          "id": 2,
+          "subPermissions": [
+            {
+              "id": 21,
+              "title": "Permission 21",
+              "active": true
+            },
+            {
+              "id": 22,
+              "title": "Permission 22",
+              "active": true
+            },
+            {
+              "id": 23,
+              "title": "Permission 23",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 3",
+          "id": 3,
+          "subPermissions": [
+            {
+              "id": 31,
+              "title": "Permission 31",
+              "active": true
+            },
+            {
+              "id": 32,
+              "title": "Permission 32",
+              "active": true
+            },
+            {
+              "id": 33,
+              "title": "Permission 33",
+              "active": false
+            },
+            {
+              "id": 34,
+              "title": "Permission 34",
+              "active": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "active": false,
+      "superAdmin": false,
+      "info": {
+        "firstName": "Persival",
+        "lastName": "Blinn",
+        "email": "persival.blinn@testtask.com",
+        "role": "Admin",
+        "avatar": null
+      },
+      "permissions": [
+        {
+          "active": false,
+          "title": "Permission group 1",
+          "id": 1,
+          "subPermissions": [
+            {
+              "id": 11,
+              "title": "Permission 11",
+              "active": true
+            },
+            {
+              "id": 12,
+              "title": "Permission 12",
+              "active": true
+            },
+            {
+              "id": 13,
+              "title": "Permission 13",
+              "active": false
+            },
+            {
+              "id": 14,
+              "title": "Permission 14",
+              "active": true
+            },
+            {
+              "id": 15,
+              "title": "Permission 15",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 2",
+          "id": 2,
+          "subPermissions": [
+            {
+              "id": 21,
+              "title": "Permission 21",
+              "active": true
+            },
+            {
+              "id": 22,
+              "title": "Permission 22",
+              "active": true
+            },
+            {
+              "id": 23,
+              "title": "Permission 23",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 3",
+          "id": 3,
+          "subPermissions": [
+            {
+              "id": 31,
+              "title": "Permission 31",
+              "active": true
+            },
+            {
+              "id": 32,
+              "title": "Permission 32",
+              "active": true
+            },
+            {
+              "id": 33,
+              "title": "Permission 33",
+              "active": false
+            },
+            {
+              "id": 34,
+              "title": "Permission 34",
+              "active": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "active": false,
+      "superAdmin": false,
+      "info": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@testtask.com",
+        "role": "Admin",
+        "avatar": null
+      },
+      "permissions": [
+        {
+          "active": false,
+          "title": "Permission group 1",
+          "id": 1,
+          "subPermissions": [
+            {
+              "id": 11,
+              "title": "Permission 11",
+              "active": true
+            },
+            {
+              "id": 12,
+              "title": "Permission 12",
+              "active": true
+            },
+            {
+              "id": 13,
+              "title": "Permission 13",
+              "active": false
+            },
+            {
+              "id": 14,
+              "title": "Permission 14",
+              "active": true
+            },
+            {
+              "id": 15,
+              "title": "Permission 15",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 2",
+          "id": 2,
+          "subPermissions": [
+            {
+              "id": 21,
+              "title": "Permission 21",
+              "active": true
+            },
+            {
+              "id": 22,
+              "title": "Permission 22",
+              "active": true
+            },
+            {
+              "id": 23,
+              "title": "Permission 23",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 3",
+          "id": 3,
+          "subPermissions": [
+            {
+              "id": 31,
+              "title": "Permission 31",
+              "active": true
+            },
+            {
+              "id": 32,
+              "title": "Permission 32",
+              "active": true
+            },
+            {
+              "id": 33,
+              "title": "Permission 33",
+              "active": false
+            },
+            {
+              "id": 34,
+              "title": "Permission 34",
+              "active": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "active": true,
+      "superAdmin": true,
+      "info": {
+        "firstName": "Dan",
+        "lastName": "Adams",
+        "email": "dan.adams@testtask.com",
+        "role": "Admin",
+        "avatar": null
+      },
+      "permissions": [
+        {
+          "active": false,
+          "title": "Permission group 1",
+          "id": 1,
+          "subPermissions": [
+            {
+              "id": 11,
+              "title": "Permission 11",
+              "active": true
+            },
+            {
+              "id": 12,
+              "title": "Permission 12",
+              "active": true
+            },
+            {
+              "id": 13,
+              "title": "Permission 13",
+              "active": true
+            },
+            {
+              "id": 14,
+              "title": "Permission 14",
+              "active": true
+            },
+            {
+              "id": 15,
+              "title": "Permission 15",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 2",
+          "id": 2,
+          "subPermissions": [
+            {
+              "id": 21,
+              "title": "Permission 21",
+              "active": true
+            },
+            {
+              "id": 22,
+              "title": "Permission 22",
+              "active": true
+            },
+            {
+              "id": 23,
+              "title": "Permission 23",
+              "active": true
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "Permission group 3",
+          "id": 3,
+          "subPermissions": [
+            {
+              "id": 31,
+              "title": "Permission 31",
+              "active": true
+            },
+            {
+              "id": 32,
+              "title": "Permission 32",
+              "active": true
+            },
+            {
+              "id": 33,
+              "title": "Permission 33",
+              "active": true
+            },
+            {
+              "id": 34,
+              "title": "Permission 34",
+              "active": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
